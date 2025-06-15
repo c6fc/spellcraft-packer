@@ -6,12 +6,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "doc": "jsdoc -c jsdoc.json --verbose"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c6fc/spellcraft-packer.git"
+  },
   "config": {
     "spellcraft_module_default_name": "packer"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Brad Woodward (brad@bradwoodward.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c6fc/spellcraft-packer/issues"
+  },
+  "homepage": "https://github.com/c6fc/spellcraft-packer#readme",
+  "description": "A plugin to expose Hashicorp Packer via @c6fc/spellcraft",
+  "dependencies": {
+    "@c6fc/packer": "^0.0.1"
+  },
   "devDependencies": {
     "clean-jsdoc-theme": "^4.3.0",
     "jsdoc": "^4.0.4"
